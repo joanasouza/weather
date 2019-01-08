@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
 import Search from './Components/Search';
+import Temperature from './Components/Temperature';
 
 class App extends Component {
   render() {
@@ -10,8 +10,11 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <Header/>
-        <Search/>
         </header>
+        <div>
+        <Search/>
+        <Temperature/>
+        </div>
       </div>
     );
   }
