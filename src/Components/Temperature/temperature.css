@@ -3,3 +3,8 @@
     text-align: left;
     color: white;
 }
+
+.weather-chart {
+    width: 100%;
+    margin-left: 24%;
+}
